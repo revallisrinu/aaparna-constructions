@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border:2px solid black; */
+    height:100vh;
+    width:100vw;
+}
+
+.maincontainer{
+    /* border:2px solid blue; */
+    display: flex;
+    position: sticky;
+    top:0px;
+}
+
+.firstsection img{
+    height:150px;
+    width:150px;
+    position: relative;
+    top:30px;
+}
+
+.firstsection{
+    /* border:2px solid yellowgreen; */
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#212529;
+    color:white;
+    
+}
+
+.secondsection{
+    margin-top:200px;
+    /* border:2px solid yellowgreen; */
+    padding-left:20px;
+    height:100px;
+}
+
+.rangesection ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+
+.rangesection ul li{
+    color:black;
+    word-spacing:10%;
+}
+
+
+.selectsection ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+
+}
+
+.selectsection ul li{
+    font-size:20px;
+    position: relative;
+    top:30px;
+    left:10px;
+}
+
+.secondpart{
+    height:100vh;
+    width:100vw;
+    /* border:2px solid red; */
+    position: relative;
+    top:140px;
+}
+
+.secondpart h1{
+    color: navy;
+    font-size:100px;
+    text-align: center;
+}
+
+.secondpart h2{
+    color:black;
+    text-align: center;
+    word-spacing:30px;
+}
+.communitylogo{
+  /* border:2px solid yellowgreen; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+.communitylogo img{
+    height:300px;
+
+}
+
+.logo1{
+    /* border:2px solid yellowgreen; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logo1 img{
+    height:90px;
+}
+
+
+.partthree{
+    /* border:2px solid black; */
+    height:100vh;
+    width:100vw;
+    position: relative;
+    top:140px;
+}
+
+
+.projects h1{
+    text-align: center;
+    font-size:50px;
+}
+
+.btn{
+    /* border:2px solid yellowgreen; */
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn .btn1{
+    margin-left:20px;
+    height:40px;
+    width:40%;
+    background-color: royalblue;
+    color:white;
+    border: none;
+    font-weight:700;
+    font-size:20px;
+}
+.btn .btn2{
+    border:1px solid blue;
+    margin-left:20px;
+    height:40px;
+    width:50%;
+    background-color:white;
+    color: royalblue;
+    font-weight:700;
+    font-size:20px;
+    
+}
+
+.slider{
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content:space-evenly;
+    height:400px;
+}
+
+.slider .para{
+    margin-top:10px;
+    margin-left:10px;
+    height:350px;
+    width:400px;
+    border:2px solid red;
+    display: flex;
+}
+
+.para .insidepara1{
+    height:80%;
+    /* border:2px solid red; */
+    padding-left:20px;
+    width:50%;
+}
+
+.para .insidepara2{
+    padding-top:20px;
+    height:80%;
+    /* border:2px solid red; */
+    padding-left:20px;
+    width:50%;
+}
+
+.insidepara2 h1{
+    font-size:19px;
+}
+
+
+.insidepara2  button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height:30px;
+    width:100%;
+    position: relative;
+    top: 40px;
+    right:120px;
+}
+
+.para1{
+    border:2px solid red;
+    margin-top:10px;
+    margin-left:10px;
+    height:350px;
+    width:400px;
+}
+
+.para1 img{
+    height:100%;
+    width:100%;
+
+}
+
+.partfour{
+    /* border:2px solid red; */
+    height:100vh;
+    width:100vw;
+    position: relative;
+    top:15px;
+    padding-left:100px;
+    padding-top:40px;
+   
+
+}
+
+.four-img img{
+    /* border:2px solid red; */
+    height:250px;
+    width:250px;
+}
+
+.customer-trails{
+    /* border:2px solid red; */
+    height:100vh;
+    width:100vw;
+    position: relative;
+    top:15px;
+    background-image: url("./asessts/Aparna-Zenon-featured-projects.png");
+}
+
+.customer-trails h2{
+    text-align: center;
+    font-size:90px;
+    color:white;
+}
+
+.customer-trails iframe{
+    position: relative;
+    left:340px;
+    top:20px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+
+.finalpart{
+    height:100vh;
+    width:100vw;
+    position: relative;
+    top:15px;
+    padding-top:40px;
+    border:2px solid red;
+    padding-left:140px;
+    padding-right:20px;
+    background-color: #212529;
+      
+}
+
+
+.col{
+    position: absolute;
+}
+.finalpart .col{
+    /* border:2px solid blue; */
+    width:80vw;
+    background-color: blue;
+}
+
+.col h3,p{
+    font-size:20px;
+    color: white;
+    padding:5px;
+}
+
+.inp-col{
+    border:2px solid white;
+    width:300px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+    left:700px;
+    gap:10px;
+    background-color: white;
+      
+}
+.inp-col button{
+    width:100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight:700;
+}
+
+footer{
+    /* border:2px solid white; */
+    position: relative;
+    top:100px;
+}
+
+.foot{
+    /* border:2px solid white; */
+    display: flex;
+    gap:10px;
+
+}
+
+.foot h2{
+    color:white;
+}
+
+.foot1 h1{
+    color:white;
+    position: relative;
+    top:20px;
+}
+
+.images{
+    display: flex;
+    gap:30px;
+}
+
+.images h2{
+    position: relative;
+    top:30px;
+    left:-10px;
+    color:white;
+    gap:10px;
+}
+
+.copy{
+    color:white;
+    font-size:15px;
+    position: relative;
+    bottom:-100px;
+    left:-50px;
+}
+
+.ban{
+    position: relative;
+    left:-20px;
+}
+
+.hyd{
+    position: relative;
+    left:10px;
+}
